@@ -28,15 +28,15 @@ This Jupyter Notebook implements **Phase 1 & 2 of a Data Governance project** fo
 ---
 
 ## 🗂️ **Notebook Structure**
-| Section               | Owner               | Description                                                                                     |
-|-----------------------|---------------------|-------------------------------------------------------------------------------------------------|
-| **1. Setup**          | Omar Hany           | Install and import libraries (`pandera`, `ydata-profiling`, `seaborn`, etc.).                  |
-| **2. Data Loading**   | Omar Hany           | Load the raw CSV file and display initial rows.                                                |
-| **3. Data Profiling** | Omar Hany           | Generate a **manual profile** (null counts, dtypes) and **automated YData report**.            |
-| **4. Data Cleaning**  | Team                | - Rename columns for clarity. <br> - Parse timestamps, salaries, and currencies. <br> - Standardize text fields (e.g., "USA" → "United States"). <br> - Map categorical ranges (e.g., age groups → midpoints). <br> - Drop high-null columns and duplicates. |
-| **5. Validation**     | Nader Mohamed       | Define and enforce a **Pandera schema** to validate data types, ranges, and categorical values. |
-| **6. Visualization**  | Rowida Sayed        | Generate **exploratory plots** (e.g., salary distributions, demographic breakdowns).           |
-| **7. Output**         | Omar Hany           | Save the cleaned dataset to CSV.                                                               |
+| Section               | Description                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------|
+| **1. Setup**          | Install and import libraries (`pandera`, `ydata-profiling`, `seaborn`, etc.).                  |
+| **2. Data Loading**   | Load the raw CSV file and display initial rows.                                                |
+| **3. Data Profiling** | Generate a **manual profile** (null counts, dtypes) and **automated YData report**.            |
+| **4. Data Cleaning**  | - Rename columns for clarity. <br> - Parse timestamps, salaries, and currencies. <br> - Standardize text fields (e.g., "USA" → "United States"). <br> - Map categorical ranges (e.g., age groups → midpoints). <br> - Drop high-null columns and duplicates. |
+| **5. Validation**     | Define and enforce a **Pandera schema** to validate data types, ranges, and categorical values. |
+| **6. Visualization**  | Generate **exploratory plots** (e.g., salary distributions, demographic breakdowns).           |
+| **7. Output**         | Save the cleaned dataset to CSV.                                                               |
 
 ---
 
